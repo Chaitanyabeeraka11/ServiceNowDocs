@@ -52,6 +52,8 @@ On the Developer Portal, open your instance menu and use **Activate Plugin**, or
 > **Do not install Third-party Risk Management (TPRM) on the PDI.** It currently fails to install on PDIs because a dependency (`sn_reco_template`) is missing, and there is no workaround. Use case 2 is therefore built on Risk Management + Policy and Compliance, with suppliers modelled as entities. That is a legitimate design that many clients without a TPRM licence use, and it is good to say so in interviews.
 >
 > **Installs can take a long time** (sometimes hours). Start the activations first and do the user/group setup while they run.
+>
+> **GRC apps not listed?** Install them from **All > System Applications > All Available Applications > All** and search "GRC". On a brand-new PDI the GRC apps can take up to about a day to appear. If they are missing, wait, select **Sync** in the application manager, then log out and back in. Install order: Policy and Compliance, then Risk Management, then Advanced Risk, then the two workspaces.
 
 > **If a plugin is not available on your PDI:** where a step depends on Advanced Risk, it also shows a *Fallback* path that uses only core Risk Management. Plugin availability on PDIs changes by release, so check the list on your instance and write down exactly what you activated. That list is itself a good interview detail.
 
